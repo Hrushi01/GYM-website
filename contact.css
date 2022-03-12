@@ -1,0 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.whole {
+  background-image: url(contact-bg.png);
+  height: 775px;
+  background-size: 1555px;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Header starts hear */
+
+.header {
+  padding-top: 10px;
+  position: fixed;
+  background-color: antiquewhite;
+  width: 20%;
+  background-color: rgba(255, 235, 205, 0.534);
+  text-align: center;
+  height: 65px;
+  font-size: xx-large;
+}
+
+/* Header ends hear */
+
+/* ----------------------------------------------------------------------- */
+
+/* Navbar starts hear */
+
+/* Navbar starts hear */
+
+/* Navbar starts hear */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  width: 200px;
+  position: fixed;
+}
+
+.ancar {
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+}
+
+.logo {
+  height: 100px;
+  width: 100%;
+}
+
+.home {
+  padding-top: 30px;
+  text-align: center;
+  font-size: larger;
+  margin-top: 60px;
+  color: orange;
+}
+
+/* Navbar end here  */
+
+/* Navbar end here  */
+
+/* Navbar end here  */
+
+.heading {
+  font-size: 70px;
+  color: aliceblue;
+  margin-top: 10px;
+  margin-left: 390px;
+}
+
+.direction {
+  flex-direction: column;
+  width: 1300px;
+  margin-left: 200px;
+}
+
+.orange {
+  font-size: 100px;
+  color: orange;
+}
+
+.text {
+  color: aliceblue;
+  margin-top: 30px;
+  padding-left: 120px;
+  /* font-weight: bolder; */
+  font-size: xx-large;
+}
+
+.form {
+  height: 500px;
+  width: 400px;
+  margin-left: 350px;
+  margin-top: 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.label {
+  padding-top: 15px;
+  padding-left: 40px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.name {
+  padding-left: 30px;
+  font-size: larger;
+}
+
+.buttonn {
+  display: flex;
+  margin-left: 150px;
+}
+
+.but {
+  height: 35px;
+  width: 60px;
+  padding: 5px;
+}
+
+/* <!-- footer starts hear --> */
+
+.footer {
+  color: aliceblue;
+  background-color: rgb(27, 24, 24);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+}
+
+.quick,
+.connect {
+  margin-left: 30px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* footer ends hear */
+
+@media (max-width: 450px) {
+  .whole {
+    background-size: cover;
+    height: 700px;
+  }
+  .navbar {
+    font-size: small;
+    width: 110px;
+    margin-top: 50px;
+  }
+  .direction {
+    margin-left: 140px;
+    padding: 5px;
+  }
+  .header {
+    width: 30%;
+    font-size: large;
+    height: 52px;
+  }
+  .home {
+    margin-top: 30px;
+  }
+  .heading {
+    margin-left: 30px;
+    font-size: 33px;
+  }
+  .orange {
+    font-size: 53px;
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 0px;
+  }
+  .form {
+    height: 450px;
+    width: 290px;
+    margin-left: 0px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: aliceblue;
+  }
+  .label {
+    padding-top: 15px;
+    padding-left: 47px;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .name {
+    padding-left: 30px;
+    font-size: large;
+  }
+  input {
+    padding: 3px !important;
+  }
+  .infobutton {
+    width: 230px !important;
+    padding: 2px;
+  }
+  .buttonn {
+    margin-left: 75px;
+  }
+  .footer {
+    width: 96;
+    font-size: small;
+    padding: 10px;
+  }
+}

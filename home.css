@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header starts hear */
+
+.header {
+  position: fixed;
+  background-color: antiquewhite;
+  width: 100%;
+  background-color: rgba(255, 235, 205, 0.534);
+  text-align: center;
+  height: 50px;
+  font-size: xx-large;
+  z-index: 1;
+}
+
+/* Header ends hear */
+
+/* ----------------------------------------------------------------------- */
+
+/* Navbar starts hear */
+
+/* Navbar starts hear */
+
+/* Navbar starts hear */
+
+.whole {
+  height: 92vh;
+  background-image: url(home.jpg);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  width: 150px;
+  position: fixed;
+}
+
+.ancar {
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+}
+
+.enroll {
+  font-size: xx-large;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid rgb(245, 198, 110);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.enroll:hover {
+  background-color: orange;
+}
+
+.vertical {
+  display: flex;
+  margin-left: 15%;
+  /* height: 85vh; */
+}
+
+.logo {
+  height: 100px;
+  width: 100%;
+}
+
+.home {
+  padding-top: 30px;
+  text-align: center;
+  font-size: larger;
+  margin-top: 50px;
+  color: orange;
+}
+
+/* Navbar end here  */
+
+/* Navbar end here  */
+
+/* Navbar end here  */
+
+.slogan {
+  width: 80vh;
+}
+
+.initial {
+  padding-left: 50px;
+  margin-top: 53%;
+}
+
+.bold {
+  color: orange;
+  font-size: 12vh;
+}
+
+.small {
+  font-size: 8vh;
+}
+
+.register {
+  margin-left: 8vw;
+  color: orange;
+}
+
+.space {
+  height: 20vh;
+  width: 20vw;
+  /* background-color: aliceblue; */
+}
+
+.info {
+  width: 20vw;
+  font-size: x-large;
+  padding-top: 250px;
+  text-align: center;
+}
+
+/* <!-- footer starts hear --> */
+
+.footer {
+  color: aliceblue;
+  background-color: rgb(27, 24, 24);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+}
+
+.quick,
+.connect {
+  margin-left: 30px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+/* footer ends hear */
+@media (max-width: 1025px) {
+  .space {
+    display: none;
+  }
+  .initial {
+    margin-top: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .space {
+    display: none;
+  }
+  .whole {
+    height: 88vh;
+  }
+  .navbar {
+    font-size: small;
+    width: 110px;
+    /* background-color: aliceblue; */
+  }
+  .footer {
+    /* width: 96; */
+    font-size: small;
+    padding: 15px;
+    /* padding-left: 0px; */
+  }
+
+  .vertical {
+    margin-top: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .initial {
+    margin-top: 0vh;
+  }
+  .info {
+    padding: 6%;
+    font-size: 130%;
+    width: 60vw;
+  }
+  .bold {
+    font-size: 6vh;
+  }
+  .small {
+    font-size: 4vh;
+  }
+  .register {
+    margin-left: 15vw;
+  }
+  .enroll {
+    font-size: large;
+    /* padding-left: 5vw; */
+  }
+}
