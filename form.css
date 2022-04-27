@@ -10,7 +10,7 @@ body{
 }
 .form{
     
-    margin-top: 10vh;
+    margin-top: 2vh;
     height: 80vh;
     background-color: rgb(252, 233, 197);
     width: 40%;
@@ -52,6 +52,11 @@ textarea{
 
 }
 
-
+.heading{
+    font-size: 61px;
+    font-weight: bold;
+    margin-left: 45%;
+    color: #393434;
+}
 
 
